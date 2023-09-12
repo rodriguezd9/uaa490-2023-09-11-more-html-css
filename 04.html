@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Web Page!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+   
+
+        .first {
+            font-size: 120%;
+            font-weight: bold;
+        }   
+
+        p:first-child {
+            color: purple;
+            font-size:150%;
+        }
+
+        li:last-child {
+            border: 2px solid orange;
+        }
+
+        li:nth-child(n + 3) {
+            background-color: yellow;
+        }
+
+        li:hover {
+            background-color: lightyellow;
+            color:brown;
+        }
+        
+        .btn {
+            width: 100px;
+            background-color: gold;
+            border: 2px solid firebrick;
+            height: 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: bisque;
+        }
+        .btn:active {
+            box-shadow: 2px 2px 5px black;
+            color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <p>NBA players with most championships:</p>
+        <ul>
+          <li>Bill Russell</li>
+          <li>Sam Jones</li>
+          <li>Tom Heinsohn</li>
+          <li>K. C. Jones</li>
+          <li>Satch Sanders</li>
+          <li>John Havlicek</li>
+          <li>Jim Loscutoff</li>
+          <li>Frank Ramsey</li>
+          <li>Robert Horry</li>
+        </ul>
+        <button class="btn"> Confirm</button>
+        <button class="btn"> Deny</button>
+     </body>
+</html>
