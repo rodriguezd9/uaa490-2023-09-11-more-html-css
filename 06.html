@@ -4,40 +4,38 @@
         <title>My Web Page!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-   
-            p::first-letter {
-                font-size: 150%;
-                color: green;
+            
+            ol > ul > li {
+                color:blue;
+            }
+
+            ul > li:last-child {
+                border-bottom: 2px solid red;
             }
 
         </style>
     </head>
     <body>
-        <p>
-            Donald Ervin Knuth (/kəˈnuːθ/ kə-NOOTH; born January 10, 1938) 
-            is an American computer scientist, mathematician, 
-            and professor emeritus at Stanford University. 
-            He is the 1974 recipient of the ACM Turing Award, 
-            informally considered the Nobel Prize of 
-            computer science.[4] Knuth has been called the 
-            "father of the analysis of algorithms".
-            </p>
-            
-            <p>
-            He is the author of the multi-volume work 
-            The Art of Computer Programming and contributed
-            to the development of the rigorous analysis of 
-            the computational complexity of algorithms and 
-            systematized formal mathematical techniques for it. In the process,
-            he also popularized the asymptotic notation. 
-            </p>
-            
-            <p>
-            In addition to fundamental contributions in several branches 
-            of theoretical computer science, 
-            Knuth is the creator of the TeX computer typesetting system, 
-            the related METAFONT font definition language and rendering system, 
-            and the Computer Modern family of typefaces.
-            </p>
-     </body>
+        <h2>First List</h2>
+        <p>Here is a nested list</p>
+        <ol>
+            <li>ORDERED item one</li>
+            <li>ORDERED item two</li>
+            <ul>
+                <li>Unordered item one</li>
+                <li>Unordered item two</li>
+                <li>Unordered item three</li>
+                <li>Unordered item four</li>
+            </ul>
+            <li>ORDERED item three</li>
+        </ol>
+        <h2>Another List</h2>
+        <p>This a must simpler list.</p>
+        <ul>
+            <li>My item one</li>
+            <li>My item two</li>
+            <li>My item three</li>
+        </ul>
+
+    </body>
 </html>
